@@ -1,32 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Horatius83\\Documents\\GitHub\\Godot\\DodgeTheCreeps2\\Dodge The Creeps 2.csproj": {}
+    "C:\\Users\\horat\\Documents\\github\\Godot\\DodgeTheCreeps2\\Dodge The Creeps 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Horatius83\\Documents\\GitHub\\Godot\\DodgeTheCreeps2\\Dodge The Creeps 2.csproj": {
+    "C:\\Users\\horat\\Documents\\github\\Godot\\DodgeTheCreeps2\\Dodge The Creeps 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Horatius83\\Documents\\GitHub\\Godot\\DodgeTheCreeps2\\Dodge The Creeps 2.csproj",
+        "projectUniqueName": "C:\\Users\\horat\\Documents\\github\\Godot\\DodgeTheCreeps2\\Dodge The Creeps 2.csproj",
         "projectName": "Dodge The Creeps 2",
-        "projectPath": "C:\\Users\\Horatius83\\Documents\\GitHub\\Godot\\DodgeTheCreeps2\\Dodge The Creeps 2.csproj",
-        "packagesPath": "C:\\Users\\Horatius83\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Horatius83\\Documents\\GitHub\\Godot\\DodgeTheCreeps2\\.mono\\temp\\obj\\",
+        "projectPath": "C:\\Users\\horat\\Documents\\github\\Godot\\DodgeTheCreeps2\\Dodge The Creeps 2.csproj",
+        "packagesPath": "C:\\Users\\horat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\horat\\Documents\\github\\Godot\\DodgeTheCreeps2\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Horatius83\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\horat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net472"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {

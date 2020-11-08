@@ -8,13 +8,17 @@ public class Main : Node
 
     private int _score;
 
-
     private Random _random = new Random();
 
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
         NewGame();        
+    }
+
+    public void OnPlayerHit()
+    {
+        GameOver();
     }
 
     public void GameOver()
@@ -47,7 +51,7 @@ public class Main : Node
 
     public void OnMobTimerTimeout()
     {
-        var mobSpanLocation = GetNode<PathFollow2D>("MobPath/MobSpanLocation");
+        var mobSpanLocation = GetNode<PathFollow2D>("MobPath/MobSpawnLocation");
         mobSpanLocation.Offset = _random.Next();
 
         var mobInstance = (RigidBody2D)Mob.Instance();

@@ -6,3 +6,11 @@ C:\Users\Horatius83\Documents\GitHub\Godot\DodgeTheCreeps2\.mono\temp\obj\Debug\
 C:\Users\Horatius83\Documents\GitHub\Godot\DodgeTheCreeps2\.mono\temp\obj\Debug\Dodge The Creeps 2.csproj.CoreCompileInputs.cache
 C:\Users\Horatius83\Documents\GitHub\Godot\DodgeTheCreeps2\.mono\temp\obj\Debug\Dodge The Creeps 2.dll
 C:\Users\Horatius83\Documents\GitHub\Godot\DodgeTheCreeps2\.mono\temp\obj\Debug\Dodge The Creeps 2.pdb
+C:\Users\horat\Documents\github\Godot\DodgeTheCreeps2\.mono\temp\bin\Debug\Dodge The Creeps 2.dll
+C:\Users\horat\Documents\github\Godot\DodgeTheCreeps2\.mono\temp\bin\Debug\Dodge The Creeps 2.pdb
+C:\Users\horat\Documents\github\Godot\DodgeTheCreeps2\.mono\temp\obj\Debug\Dodge The Creeps 2.csprojAssemblyReference.cache
+C:\Users\horat\Documents\github\Godot\DodgeTheCreeps2\.mono\temp\obj\Debug\Dodge The Creeps 2.AssemblyInfoInputs.cache
+C:\Users\horat\Documents\github\Godot\DodgeTheCreeps2\.mono\temp\obj\Debug\Dodge The Creeps 2.AssemblyInfo.cs
+C:\Users\horat\Documents\github\Godot\DodgeTheCreeps2\.mono\temp\obj\Debug\Dodge The Creeps 2.csproj.CoreCompileInputs.cache
+C:\Users\horat\Documents\github\Godot\DodgeTheCreeps2\.mono\temp\obj\Debug\Dodge The Creeps 2.dll
+C:\Users\horat\Documents\github\Godot\DodgeTheCreeps2\.mono\temp\obj\Debug\Dodge The Creeps 2.pdb
