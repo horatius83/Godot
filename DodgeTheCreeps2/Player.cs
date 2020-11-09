@@ -71,7 +71,6 @@ public class Player : Area2D
 			animatedSprite.Animation = "up";
 			animatedSprite.FlipV = velocity.y > 0;
         }
-
     }
 
 	public void OnPlayerBodyEntered(PhysicsBody2D body)
