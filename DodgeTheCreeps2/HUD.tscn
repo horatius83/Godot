@@ -60,3 +60,5 @@ __meta__ = {
 }
 
 [node name="MessageTimer" type="Timer" parent="."]
+[connection signal="pressed" from="StartButton" to="." method="OnStartButtonPressed"]
+[connection signal="timeout" from="MessageTimer" to="." method="OnMessageTimerTimeout"]

@@ -29,4 +29,20 @@ public class HUD : CanvasLayer
         await ToSignal(GetTree().CreateTimer(1), "timeout");
         GetNode<Button>("StartButton").Show();
     }
+
+    public void UpdateScore(int score)
+    {
+        GetNode<Label>("ScoreLabel").Text = score.ToString();
+    }
+
+    public void OnMessageTimerTimeout()
+    {
+        GetNode<Label>("Message").Hide();
+    }
+
+    public void OnStartButtonPressed()
+    {
+        GetNode<Button>("StartButton").Hide();
+        EmitSignal("StartGame");
+    }
 }
