@@ -22,10 +22,12 @@ public class Main : Node
 
     public void GameOver()
     {
+        GetNode<AudioStreamPlayer>("Music").Stop();
         GetNode<Timer>("MobTimer").Stop();
         GetNode<Timer>("ScoreTimer").Stop();
         GetNode<HUD>("HUD").ShowGameOver();
         GetTree().CallGroup("mobs", "queue_free");
+        GetNode<AudioStreamPlayer>("DeathSound").Play();
     }
 
     public void NewGame()
@@ -41,6 +43,8 @@ public class Main : Node
         var hud = GetNode<HUD>("HUD");
         hud.UpdateScore(_score);
         hud.ShowMessage("Get Ready!");
+
+        GetNode<AudioStreamPlayer>("Music").Play();
     }
 
     public void OnStartTimerTimeout()
