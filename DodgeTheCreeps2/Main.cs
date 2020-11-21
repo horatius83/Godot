@@ -13,7 +13,6 @@ public class Main : Node
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
-        NewGame();
     }
 
     public void OnPlayerHit()
@@ -26,6 +25,7 @@ public class Main : Node
         GetNode<Timer>("MobTimer").Stop();
         GetNode<Timer>("ScoreTimer").Stop();
         GetNode<HUD>("HUD").ShowGameOver();
+        GetTree().CallGroup("mobs", "queue_free");
     }
 
     public void NewGame()

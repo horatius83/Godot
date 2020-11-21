@@ -15,6 +15,7 @@ script = ExtResource( 2 )
 Mob = ExtResource( 3 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
+visible = false
 Speed = 4000
 
 [node name="MobTimer" type="Timer" parent="."]
@@ -41,3 +42,4 @@ rotation = -0.217405
 [connection signal="timeout" from="MobTimer" to="." method="OnMobTimerTimeout"]
 [connection signal="timeout" from="ScoreTimer" to="." method="OnScoreTimerTimeout"]
 [connection signal="timeout" from="StartTimer" to="." method="OnStartTimerTimeout"]
+[connection signal="StartGame" from="HUD" to="." method="NewGame"]
