@@ -26,7 +26,6 @@ __meta__ = {
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 visible = false
-Speed = 4000
 
 [node name="MobTimer" type="Timer" parent="."]
 wait_time = 0.5

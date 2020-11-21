@@ -22,22 +22,22 @@ public class Player : Area2D
     {
 		var velocity = new Vector2();
 		
-		if(Input.IsActionJustPressed("ui_right"))
+		if(Input.IsActionPressed("ui_right"))
         {
 			velocity.x += 1;
         }
 
-		if(Input.IsActionJustPressed("ui_left"))
+		if(Input.IsActionPressed("ui_left"))
         {
 			velocity.x -= 1;
         }
 
-		if(Input.IsActionJustPressed("ui_up"))
+		if(Input.IsActionPressed("ui_up"))
         {
 			velocity.y -= 1;
         }
 
-		if(Input.IsActionJustPressed("ui_down"))
+		if(Input.IsActionPressed("ui_down"))
         {
 			velocity.y += 1;
         }
@@ -73,7 +73,7 @@ public class Player : Area2D
         }
     }
 
-	public void OnPlayerBodyEntered(PhysicsBody2D body)
+	public void OnPlayerBodyEntered(PhysicsBody2D _)
     {
 		Hide();
 		EmitSignal("Hit");
